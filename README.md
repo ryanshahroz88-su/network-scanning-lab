@@ -1,6 +1,6 @@
 # network-scanning-lab
 
-7 lab projects on my own VMs, by Steve.
+8 lab projects on my own VMs, by Steve.
 
 Tools: Nmap, Wireshark, enum4linux, dig, snmpwalk. Lab only.
 
@@ -13,5 +13,6 @@ Tools: Nmap, Wireshark, enum4linux, dig, snmpwalk. Lab only.
 5. **05-full-network-assessment** — Full Network Assessment: report plus live demo.
 6. **06-firewall-evasion-tool** — Firewall Evasion Tester: a small Python tool that runs the 4 Project 4 tests and compares them. Result on 3 Nov 2026: all 4 tests found the same 7 open ports (21, 22, 80, 445, 631, 3306, 8080).
 7. **07-brute-force-detector** — Brute-Force Detector: a small Python tool that reads SSH logs, counts failed logins per IP, and flags suspicious IPs. Real result on 4 Nov 2026: my own Kali IP (192.168.10.214) flagged with 6 failed logins.
+8. **08-port-scanner** — PortScan: a TCP port scanner built from scratch in Python — banner grabbing, service naming, threads, clean Ctrl+C. Real result on 10 Nov 2026: quick mode found all 7 open ports (21, 22, 80, 445, 631, 3306, 8080) in 1.02 s; Nmap confirmed the same 7.
 
-Folders 01–05 hold that project's final report (PDF); 06 and 07 hold each tool's code, README, and report.
+Folders 01–05 hold that project's final report (PDF); 06, 07 and 08 hold each tool's code, README, and report.
