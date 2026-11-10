@@ -82,6 +82,7 @@ http-proxy) — an exact match with PortScan's `--quick` results.
 ## Files
 
 - `portscan.py` — the tool (Python 3, standard library only, no extra packages)
+- `install.sh` — installer: run `bash install.sh` to install PortScan as the `portscan` command
 - `README.md` — this file
 - `sample-report.txt` — a real report from a `--quick` scan of the lab target
 
