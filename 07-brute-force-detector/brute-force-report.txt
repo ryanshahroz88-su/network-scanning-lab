@@ -1,6 +1,0 @@
-Brute-Force Detector report
-Log file: /home/steve/real-auth.log
-
-192.168.10.214: 6 failed logins
-
-Flagged: 192.168.10.214
